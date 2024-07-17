@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>お問い合わせ-株式会社funimake</title>
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="contactinfo">
+    <header>
+        <a href="index.html"><img src="images/logobl.png" alt="ロゴ"></a>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="company.html">Company</a></li>
+                <li><a href="works.html">Works</a></li>
+                <li><a href="service.html">Service</a></li>
+                <li ><a href="contact.html"class="underline">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div id="title">
+        <h2>Contact</h2>
+        <p>お問い合わせ</p>
+    </div>
+
+    <nav class="breadcrumb">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li>Contact</li>
+        </ul>
+    </nav>
+
+    <main>
+        <form action="#">
+                <div class="item">
+                    <label class="label" for="name"><p>お名前<span class="label-required">※必須</p></span></label>
+                    <input id="name" type="text" name="yourname" required>
+                </div>
+                
+                <div class="item">
+                    <label class="label" for="email"><p>メールアドレス<span class="label-required">※必須</p></span></label>
+                    <input id="email" type="email" name="email" placeholder="example@gmail.com" required>
+                </div>
+                
+                <div class="item">
+                    <label class="label" for="tel"><p>電話番号<span class="label-required">※必須</p></span></label>
+                    <input id="tel" type="text" name="tel" placeholder="000-0000-0000" required>
+                </div>
+
+                <div class="item">
+                    <label class="label" for=""><p class="down">お問い合わせ内容<span class="label-required">※必須</p></span></label>
+                    <textarea name="textarea-item" id="textarea-item" required></textarea>
+                </div>
+
+                <div class="btn">
+                    <input type="submit" class="subbutton" value="送信する" >
+                </div>
+        </form>
+    </main>
+
+    <footer>
+        <div  class="bottom">
+            <a href="index.html" class="logow"><img src="images/logowhite.png" alt="ロゴ"></a>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="company.html">Company</a></li>
+                    <li><a href="works.html">Works</a></li>
+                    <li><a href="service.html">Service</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        
+
+        <p><small>&copy;funimake.inc</small></p>
+    </footer>
+
+</body>
+</html>
